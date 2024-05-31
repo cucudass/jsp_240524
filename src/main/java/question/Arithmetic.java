@@ -27,7 +27,7 @@ public class Arithmetic {
 			str = "사칙 연산이 아닙니다.";
 			break;
 		}
-		return str;
+		return num1+ari+num2+"의 계산 결과는 "+str;
 	}
 	
 	public int getNum1() { return num1;	}
